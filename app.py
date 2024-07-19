@@ -44,7 +44,7 @@ def predict():
 
         # st.write(prediction)
         # st.write(label)
-        st.write(f"#### Prediction - blue:[{class_labels[label]}]")
+        st.write(f"#### Prediction - {class_labels[label]}")
 
 st.button(
     label="Predict",
